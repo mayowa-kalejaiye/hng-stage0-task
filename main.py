@@ -21,6 +21,6 @@ def get_info():
     """
     return {
         "email": 'kalejaiyemayowa3@gmail.com',  # Get the email 
-        "current_datetime": datetime.now(pytz.utc).replace(microsecond=0).isoformat() + "Z",  # Get the current datetime in UTC and format it as ISO 8601 string
+        "current_datetime": datetime.now(pytz.utc).replace(microsecond=0).isoformat()[:-6] + "Z",  # Fix the current datetime format (ISO 8601 without microseconds, add "Z")
         "github_url": 'https://github.com/mayowa-kalejaiye/hng-stage0-task.git'  # Get the GitHub URL
     }
