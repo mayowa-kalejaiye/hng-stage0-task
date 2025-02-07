@@ -1,4 +1,4 @@
-# HNGX Stage0 Backend Task - Public API
+# HNGX-Stage0-Public-API
 
 ## Description
 
