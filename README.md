@@ -1,4 +1,4 @@
-# HNGX-Stage0-Public-API
+# HNG12 Stage 0 Task
 
 ## Description
 
